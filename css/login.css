@@ -1,0 +1,168 @@
+.login-body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/*nastavenie divka*/
+.form-container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+/*nastavenie paddingu v divku*/
+.padding-setting{
+    padding: 30px;
+
+}
+
+/*nadpis Sign In*/
+.title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+}
+
+/*čiara pod title*/
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 148px;
+    background: -webkit-linear-gradient(25deg, #8f6a29, #c19237);
+    border-radius: 28px;
+
+}
+
+/*medzera medzi input fields*/
+.form .input-fields{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+
+    
+
+}
+
+/*input pre písanie*/
+.input-fields input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+ 
+
+}
+
+/*na stlačenie*/
+.input-fields input:is(:focus, :active){
+    border-bottom-color: #8f6a29 ;
+}
+
+/*vycentrovanie symbolov a pridanie medzery*/
+.input-fields span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    font-size: 23px;
+}
+
+/*na stalačenie ikona taktiež*/
+.input-fields input:is(:focus, :active) ~ span {
+    color: #8f6a29 ;
+}
+
+/*posunutie ikony do ľava*/
+.input-fields span.icon{
+    left: 0;
+}
+
+
+
+
+
+
+/*nastavenie počiarkuntia pri ukazani*/
+.form a:active,
+.form a:hover{
+    text-decoration: underline;
+}
+
+/*nastavenie margin pre div*/
+.form .button{
+    margin-top: 35px;
+
+}
+
+/*tlačitko Sign In*/
+.form .button input{
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(25deg, #8f6a29, #c19237);
+    cursor: pointer;
+    
+}
+
+
+.form .button input:active,
+.form .button input:hover{
+    background: #9f772d;
+}
+
+.not-a-member{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.not-a-member a{
+    text-decoration: none;
+}
+.text{
+    margin-top: 2px;
+    color: grey;
+    font-size: 14px;
+   
+}
+.message{
+    margin-top: 5px;
+    color: firebrick;
+    font-size: 14px;
+}
+.signup-text{
+    color: #393A3F;
+}
+.form a:active,
+.form a:hover{
+    text-decoration: underline;
+    text-decoration-color: #9f772d;
+    color: #9f772d;
+}
+
+@media only screen and (max-width: 450px) {
+    .form-container{
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+  }

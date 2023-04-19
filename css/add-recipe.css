@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*background-color: white;*/
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    color: #8f6a29;
+}
+
+.margin{
+    margin: 0 20%;
+}
+.label-input-group{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.label-uvod{
+    color: rgb(105,105,105);
+    padding-top: 20px;
+}
+.input-uvod{
+    border: 2px solid #ccc;
+    height: 40px;
+    width: 100%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+.input-uvod:active,
+.input-uvod:hover{
+    border: 2px solid #9f772d;
+}
+.textarea-uvod{
+    border: 2px solid #ccc;
+    height: 100px;
+    width: 100%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+.textarea-uvod:active,
+.textarea-uvod:hover{
+    border: 2px solid #9f772d;
+}
+.textarea-postup{
+    border: 2px solid #ccc;
+    height: 200px;
+    width: 100%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+.textarea-postup:active,
+.textarea-postup:hover{
+    border: 2px solid #9f772d;
+}
+.title{
+    margin: 0px;
+}
+.title-1{
+    margin-top: 40px;
+}
+.kategoria-subtitle{
+    color: rgb(105,105,105);
+    padding-top: 20px;
+}
+div #display_image{
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey;
+    background-position: center;
+    background-size: cover;
+
+}
+.label-input-group-image{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    
+}
+.input-uvod_podrobnosti{
+    border: 2px solid #ccc;
+    height: 40px;
+    width: 10%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+.input-uvod_podrobnosti:active,
+.input-uvod_podrobnosti:hover{
+    border: 2px solid #9f772d;
+}
+small{
+    color: grey;
+    margin-left: 20px;
+}
+input[type=checkbox] {
+    accent-color: #9f772d;
+  }
+
+.addBtn,
+.addBtn1{
+    padding: 4px 5px;
+    border: none;
+    margin-left: 20px;
+    display: block;
+    position: relative;
+    background-color: #9f772d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 90px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.list .li_input,
+.list1 .li_input {
+    counter-increment: step-counter;
+    overflow: hidden;
+    position: relative;
+}
+
+  .input-fields input{
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9f772d;
+
+    cursor: pointer;
+    padding: 1% 2%;
+    align-items: middle;
+    color: #fff;
+
+}
+.input-fields {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.div_pridaj{
+    margin-left: 22px;
+}
+.list_span{
+    display: inline-block;
+    border: 2px solid #ccc;
+    height: 30px;
+    margin-left: 5px;
+    min-width: 20%;
+}
+.formHolder {
+    margin: 0 -5px;
+    overflow: hidden;
+    position: relative;
+}
+.formHolder .col {
+    float: left;
+    width: 20%;
+    padding: 0 5px;
+    
+}
+
+.formHolder .col.big {
+    width: 25%;
+    margin-left: 25px;
+}
+
+
+
+.listHolder li,
+.listHolder1 li {
+    counter-increment: step-counter;
+    overflow: hidden;
+    padding: 0 0 20px 30px;
+    position: relative;
+}
+
+.listHolder li:before,
+.listHolder1 li:before{
+    content: counter(step-counter);
+    background: #8f6a29;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.listHolder .listName, 
+.listHolder1 .listName {
+    float: left;
+}
+
+.listHolder .fa-solid.fa-trash,
+.listHolder1 .fa-solid.fa-trash {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.input_suroviny{
+    border: 2px solid #ccc;
+    padding-left: 2%;
+    margin-bottom: 5px;
+}
+.input_suroviny:active,
+.input_suroviny:hover{
+    border: 2px solid #9f772d;
+}
+
+
+.fa-solid.fa-upload,
+.fa-regular.fa-plus{
+    padding-right: 10px;
+}
+.file-input1{
+    display: block;
+    position: relative;
+    background-color: #9f772d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.file-input1:hover{
+    opacity: 0.9;
+}
+#images1{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    display: flex; 
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+figure{
+    width: 45%;
+}
+img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-size: 2.4vmin;
+    margin-top: 0.5vmin;
+
+}
+
+.profile-pic-div input{
+    display: none;
+}
+.message{
+    color: firebrick;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .margin{
+        padding-top: 56px;
+    }
+    
+}

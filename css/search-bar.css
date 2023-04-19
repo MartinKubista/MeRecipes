@@ -1,0 +1,70 @@
+.main-div-search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    background-image: url(../images/potraviny1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.search-bar{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    outline: solid 1px;
+    margin: 5px 25px;
+    height: 35px;
+    padding-right: 6px;
+    color: black;
+    text-align: center;
+    
+
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 0px;
+    font-size: 20px;
+    color: black;
+    width: 200px;
+
+}
+::placeholder{
+    color: black;
+
+}
+.search-bar material-symbols-outlined.md-48{
+    font-size: 20px;
+
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #9f772d;
+}
+.find-button{
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+
+    .main-div-search-bar{
+        height: 250px;
+        padding-top: 56px;
+    }
+
+}
